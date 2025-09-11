@@ -1,5 +1,77 @@
+.titillium-web-extralight {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.titillium-web-light {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.titillium-web-light-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.titillium-web-bold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+body {}
+
 .container {
     margin: 15px;
+    /* max-width: 1240px; */
+    /* margin: auto; */
+
 }
 
 .symbol {
@@ -14,7 +86,7 @@
 
 .symbol>div {
     display: inline;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     line-height: 28px;
     padding: 20px;
     padding-right: 60px;
@@ -37,7 +109,7 @@
 
 .nav-names>button {
     background-color: white;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     padding: 10px 25px;
     border-radius: 10px;
     font-size: 20px;
@@ -73,7 +145,7 @@
 
 #main-heading {
     grid-area: heading;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 500;
     font-size: 60px;
     line-height: 100%;
@@ -81,7 +153,7 @@
 
 #main-subheading {
     grid-area: subheading;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-size: 20px;
     line-height: 28px;
 }
@@ -93,7 +165,7 @@
     height: 68px;
     border-radius: 14px;
     padding: 20px 35px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
@@ -134,23 +206,22 @@
 #serv {
     background-color: #B9FF66;
     font-size: 40px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     border-radius: 7px;
     font-weight: 500;
     padding: 5px;
 }
 
 #serv-para {
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-size: 18px;
     margin: 5px;
     padding: 5px;
+    margin-left: 40px;
 }
 
 .grid-container {
     display: grid;
-    height: auto;
-    width: auto;
     grid-template-areas: "grid-1 grid-2"
         "grid-3 grid-4"
         "grid-5 grid-6";
@@ -182,7 +253,7 @@
 .search-para {
     background-color: #B9FF66;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -218,7 +289,7 @@
 .ad-para {
     background-color: #FFFFFF;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -254,7 +325,7 @@
 .social-para {
     background-color: #FFFFFF;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -290,7 +361,7 @@
 .email-para {
     background-color: #B9FF66;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -326,7 +397,7 @@
 .content-para {
     background-color: #FFFFFF;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -362,7 +433,7 @@
 .analyze-para {
     background-color: #FFFFFF;
     border-radius: 7px;
-    font-family: "Space Grotesk";
+    font-family: "'Space Grotesk'";
     font-weight: 500;
     font-size: 30px;
     padding-left: 7px;
@@ -380,23 +451,27 @@
     margin-top: 100px;
     background-color: #F3F3F3;
     border-radius: 45px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
 }
 
 .prop-right {
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
 }
 
 #prop-heading {
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-weight: 500;
     font-size: 30px;
 }
 
 #prop-subheading {
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-size: 18px;
+    height: 100px;
+    width: 400px;
 }
 
 #prop-button {
@@ -405,7 +480,7 @@
     height: 68px;
     border-radius: 14px;
     padding: 20px 35px;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk';
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
@@ -415,4 +490,182 @@
 .prop-left {
     margin: 10px;
     padding: 10px;
+}
+
+.gen-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #191A23;
+    height: 40vh;
+    width: 90vw;
+    border-radius: 45px;
+}
+
+.box-details {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    height: 30vh;
+    width: 35vh;
+}
+
+.box-details>span {
+    color: #B9FF66;
+    margin-top: 20px;
+}
+
+.consultation-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.consult-item {
+    background-color: #B9FF66;
+    border-radius: 45px;
+    box-shadow: 0px 5px #191A23;
+    height: 25vh;
+    width: 80vw;
+    margin: 20px;
+}
+
+.consultation-items {
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    box-shadow: 0px 5px #191A23;
+    height: 17vh;
+    margin: 20px;
+    width: 80vw;
+    border: 1px solid #191A23;
+}
+
+.consult-number {
+    margin: 10px;
+    font-size: 60px;
+    font-family: 'Space Grotesk';
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.consult-heading {
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.consult-item>p {
+    margin: 10px;
+    margin-left: 40px;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    width: 70vw;
+}
+
+#consult-img {
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.teamIntro-container {
+    display: grid;
+    grid-template-areas: " team-1 team-2 team-3"
+        "team-4 team-5 team-6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.teamIntro-flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.teamIntro-items1 {
+    grid-area: team-1;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0px 5px #191A23;
+    margin-bottom: 50px;
+}
+
+.teamIntro-items2 {
+    grid-area: team-2;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px #191A23;
+}
+
+.teamIntro-items3 {
+    grid-area: team-3;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px #191A23;
+}
+
+.teamIntro-items4 {
+    grid-area: team-4;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px #191A23;
+}
+
+.teamIntro-items5 {
+    grid-area: team-5;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px #191A23;
+}
+
+.teamIntro-items6 {
+    grid-area: team-6;
+    background-color: #FFFFFF;
+    height: 45vh;
+    width: 27vw;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px #191A23;
+}
+
+#teamIntro-button {
+    background-color: #191A23;
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px 35px;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 1140px;
 }
