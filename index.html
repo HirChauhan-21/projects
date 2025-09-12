@@ -30,27 +30,27 @@
                     <button>Request a quote</button>
                 </div>
             </div>
-            <div class="main">
-                <div class="left">
-                    <p id="main-heading">Navigating the digital landscape for success</p>
-                    <p id="main-subheading">Our digital marketing agency helps businesses grow and succeed online
-                        through a
-                        range of services including SEO, PPC, social media marketing, and content creation.</p>
-                    <button id="main-button">Book a consultation</button>
-                </div>
-                <div class="right">
-                    <img src="./images/Illustration.png" alt="Accouncement">
-                </div>
-            </div>
-            <div class="flex-container">
-                <div id="footer-img"><img src="./images/amazon.png" alt="amazon"></div>
-                <div id="footer-img"><img src="./images/dribble.png" alt="dribble"></div>
-                <div id="footer-img"><img src="./images/hubspot.png" alt="hubspot"></div>
-                <div id="footer-img"><img src="./images/notion.png" alt="notion"></div>
-                <div id="footer-img"><img src="./images/netflix.png" alt="netflix"></div>
-                <div id="footer-img"><img src="./images/zoom.png" alt="zoom"></div>
-            </div>
         </section>
+        <div class="main">
+            <div class="left">
+                <p id="main-heading">Navigating the digital landscape for success</p>
+                <p id="main-subheading">Our digital marketing agency helps businesses grow and succeed online
+                    through a
+                    range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button id="main-button">Book a consultation</button>
+            </div>
+            <div class="right">
+                <img src="./images/Illustration.png" alt="Accouncement">
+            </div>
+        </div>
+        <div class="flex-container">
+            <div id="footer-img"><img src="./images/amazon.png" alt="amazon"></div>
+            <div id="footer-img"><img src="./images/dribble.png" alt="dribble"></div>
+            <div id="footer-img"><img src="./images/hubspot.png" alt="hubspot"></div>
+            <div id="footer-img"><img src="./images/notion.png" alt="notion"></div>
+            <div id="footer-img"><img src="./images/netflix.png" alt="netflix"></div>
+            <div id="footer-img"><img src="./images/zoom.png" alt="zoom"></div>
+        </div>
 
         <div class="services">
             <span id="serv">Services</span>
@@ -208,7 +208,7 @@
                 <div class="consult-item">
                     <span class="consult-number">01</span>
                     <span class="consult-heading">Consultation</span>
-                    <img style="margin-left: 790px; margin-top: 10px;" src="./images/minusSign.png" alt="minus">
+                    <img id="con-img1" src="./images/minusSign.png" alt="minus">
                     <img id="consult-img" src="./images/verticalLine.png" alt="vertical line">
                     <p>During the initial consultation, we will discuss your business goals and objectives, target
                         audience,
@@ -220,31 +220,31 @@
                 <div class="consultation-items">
                     <span class="consult-number">02</span>
                     <span class="consult-heading">Research and Strategy Development</span>
-                    <img style="margin-left: 420px; margin-top: 20px;" src="./images/plusSign.png" alt="plus">
+                    <img id="con-img2" src="./images/plusSign.png" alt="plus">
                 </div>
 
                 <div class="consultation-items">
                     <span class="consult-number">03</span>
                     <span class="consult-heading">Implementation</span>
-                    <img style="margin-left: 735px; margin-top: 20px;" src="./images/plusSign.png" alt="plus">
+                    <img id="con-img3" src="./images/plusSign.png" alt="plus">
                 </div>
 
                 <div class="consultation-items">
                     <span class="consult-number">04</span>
                     <span class="consult-heading">Monitoring and Optimization</span>
-                    <img style="margin-left: 540px; margin-top: 20px;" src="./images/plusSign.png" alt="plus">
+                    <img id="con-img2" src="./images/plusSign.png" alt="plus">
                 </div>
 
                 <div class="consultation-items">
                     <span class="consult-number">05</span>
                     <span class="consult-heading">Reporting and Communication</span>
-                    <img style="margin-left: 510px; margin-top: 20px;" src="./images/plusSign.png" alt="plus">
+                    <img id="con-img5" src="./images/plusSign.png" alt="plus">
                 </div>
 
                 <div class="consultation-items">
                     <span class="consult-number">06</span>
                     <span class="consult-heading">Continual Improvement</span>
-                    <img style="margin-left: 600px; margin-top: 20px;" src="./images/plusSign.png" alt="plus">
+                    <img id="con-img6" src="./images/plusSign.png" alt="plus">
                 </div>
             </div>
         </section>
@@ -379,18 +379,22 @@
         <section>
             <div class="contact">
                 <div class="contact-right">
-                    <form>
-                        <input id="say" type="radio" value="Say Hi" name="say">
+                    <form class="form">
+                        <input id="say" type="radio" value="say" name="say quote">
                         <label for="say"> Say Hi</label>
-                        <input type="radio" name="quote" id="quote" value="quote">
+                        <input type="radio" name="say quote" id="quote" value="quote">
                         <label for="quote"> Get a quote </label><br><br>
+
                         <label for="name">Name</label><br>
-                        <input type="text" id="name">
+                        <input type="text" id="name" placeholder="Name"><br><br>
+
                         <label for="mail">Email*</label><br>
-                        <input type="email" id="mail"><br><br>
+                        <input type="email" id="mail" placeholder="Email"><br><br>
+
                         <label for="msg">Message*</label><br>
-                        <input type="text" id="msg"><br><br>
-                        <button>Send Message</button>
+                        <textarea name="msg" id="msg" placeholder="Message"></textarea><br><br>
+
+                        <button id="form-button">Send Message</button>
                     </form>
                 </div>
                 <div class="contact-left">
