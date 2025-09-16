@@ -1,408 +1,356 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Positivus</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Positivus — Landing</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Space+Grotesk:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Titillium+Web:wght@300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <section>
-            <div class="symbol">
-                <div class="nav-image">
-                    <img id="logo" src="./images/posotivusIcon.png" alt="Positivus Icon">
-                    <img id="brandName" src="./images/positivus.png" alt="Positivus">
-                </div>
-                <div class="nav-names">
-                    <div>About us</div>
-                    <div>Services</div>
-                    <div>Use Cases</div>
-                    <div>Pricing</div>
-                    <div>Blog</div>
-                    <button>Request a quote</button>
-                </div>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <div class="brand">
+                <img src="./images/posotivusIcon.png" alt="Positivus logo" class="logo">
+                <img src="./images/positivus.png" alt="Positivus wordmark" class="brand-name">
             </div>
-        </section>
-        <div class="main">
-            <div class="left">
-                <p id="main-heading">Navigating the digital landscape for success</p>
-                <p id="main-subheading">Our digital marketing agency helps businesses grow and succeed online
-                    through a
-                    range of services including SEO, PPC, social media marketing, and content creation.</p>
-                <button id="main-button">Book a consultation</button>
-            </div>
-            <div class="right">
-                <img src="./images/Illustration.png" alt="Accouncement">
-            </div>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Use Cases</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+                <button class="btn-outline">Request a quote</button>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
-        <div class="flex-container">
-            <div id="footer-img"><img src="./images/amazon.png" alt="amazon"></div>
-            <div id="footer-img"><img src="./images/dribble.png" alt="dribble"></div>
-            <div id="footer-img"><img src="./images/hubspot.png" alt="hubspot"></div>
-            <div id="footer-img"><img src="./images/notion.png" alt="notion"></div>
-            <div id="footer-img"><img src="./images/netflix.png" alt="netflix"></div>
-            <div id="footer-img"><img src="./images/zoom.png" alt="zoom"></div>
+    </header>
+
+
+    <section class="hero wrap">
+        <div class="hero-left">
+            <h1>Navigating the digital landscape for success</h1>
+            <p class="hero-sub">Our digital marketing agency helps businesses grow and succeed online through a range of
+                services including SEO, PPC, social media marketing, and content creation.</p>
+            <button class="btn-primary">Book a consultation</button>
         </div>
-
-        <div class="services">
-            <span id="serv">Services</span>
-            <p id="serv-para">At our digital marketing agency, we offer a range of services to <br>help businesses grow
-                and succeed online. These services include:</p>
+        <div class="hero-right">
+            <img src="./images/Illustration.png" alt="Hero illustration">
         </div>
+    </section>
 
-        <section>
-            <div class="grid-container">
-                <div class="grid-1">
-                    <div class="box1-flex">
-                        <div class="item1">
-                            <span class="search-para">Search engine</span><br>
-                            <span class="search-para">optimization</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/arrow.png" alt="arrow">
-                            <span style="padding: 5px;">Learn more</span>
-                        </div>
-                        <div class="item1">
-                            <img id="search-img" src="./images/GRID-1.png" alt="searching">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-2">
-                    <div class="box2-flex">
-                        <div class="item2">
-                            <span class="ad-para">Pay-per-click</span><br>
-                            <span class="ad-para">advertising</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/arrow.png" alt="arrow">
-                            <span style="padding: 5px;">Learn more</span>
-                        </div>
-                        <div class="item2">
-                            <img id="cursor-img" src="./images/cursor.png" alt="cursoring">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-3">
-                    <div class="box3-flex">
-                        <div class="item3">
-                            <span class="social-para">Social Media</span><br>
-                            <span class="social-para">Marketing</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/whitearrow.png" alt="arrow">
-                            <span style="padding: 5px; color: #FFFFFF;">Learn more</span>
-                        </div>
-                        <div class="item3">
-                            <img id="smile-img" src="./images/smile.png" alt="smiling">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-4">
-                    <div class="box4-flex">
-                        <div class="item4">
-                            <span class="email-para">Email</span><br>
-                            <span class="email-para">Marketing</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/arrow.png" alt="arrow">
-                            <span style="padding: 5px;">Learn more</span>
-                        </div>
-                        <div class="item4">
-                            <img id="email-img" src="./images/email.png" alt="emailing">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-5">
-                    <div class="box5-flex">
-                        <div class="item5">
-                            <span class="content-para">Content</span><br>
-                            <span class="content-para">Creation</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/arrow.png" alt="arrow">
-                            <span style="padding: 5px;">Learn more</span>
-                        </div>
-                        <div class="item5">
-                            <img id="message-img" src="./images/message.png" alt="messaging">
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-6">
-                    <div class="box6-flex">
-                        <div class="item6">
-                            <span class="analyze-para">Analytics and</span><br>
-                            <span class="analyze-para">Tracking</span><br><br><br><br><br><br><br><br>
-                            <img src="./images/whitearrow.png" alt="arrow">
-                            <span style="padding: 5px; color: #FFFFFF;">Learn more</span>
-                        </div>
-                        <div class="item6">
-                            <img id="graph-img" src="./images/graph.png" alt="graph">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="brands wrap">
+        <img src="./images/amazon.png" alt="amazon">
+        <img src="./images/dribble.png" alt="dribble">
+        <img src="./images/hubspot.png" alt="hubspot">
+        <img src="./images/notion.png" alt="notion">
+        <img src="./images/netflix.png" alt="netflix">
+        <img src="./images/zoom.png" alt="zoom">
+    </section>
 
-        <section>
-            <div class="proposal-container">
-                <div class="prop-right">
-                    <p id="prop-heading">Let’s make things happen</p>
-                    <p id="prop-subheading">Contact us today to learn more about how our digital marketing services can
-                        help
-                        your business grow
-                        and succeed online.</p>
-                    <button id="prop-button">Get your free proposal</button>
-                </div>
-                <div class="prop-left">
-                    <img src="./images/prop.png" alt="stars">
-                </div>
-            </div>
-        </section>
-
-        <div class="services">
-            <span id="serv">Case Studies</span>
-            <p id="serv-para">Explore Real-Life Examples of Our Proven Digital Marketing <br>Success through Our Case
-                Studies</p>
+    <section class="services wrap">
+        <div class="services-header">
+            <span class="tag">Services</span>
+            <p class="lead">At our digital marketing agency, we offer a range of services to <br>help businesses grow
+                and
+                succeed online. These services include:</p>
         </div>
 
-        <section>
-            <div class="gen-details">
-                <div class="box-details">
-                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in
-                        website traffic and a 25% increase in sales.</p>
-                    <span>Learn more</span>
-                    <img src="./images/greenArrow.png" alt="arrow">
+        <div class="services-grid">
+            <article class="service card light">
+                <div class="service-content">
+                    <h3 style="background-color: #B9FF66; border-radius: 7px; color: #000000;">Search
+                        engine<br>optimization</h3>
+                    <a class="learn" href="#">→ Learn more </a>
                 </div>
+                <img class="service-illustration" src="./images/GRID-1.png" alt="search">
+            </article>
 
-                <div>
-                    <img src="./images/line.png" alt="line">
+            <article class="service card green">
+                <div class="service-content">
+                    <h3 style="background-color: #FFFFFF; border-radius: 7px; color: #000000;">
+                        Pay-per-click<br>advertising</h3>
+                    <a class="learn" href="#">→ Learn more </a>
                 </div>
+                <img class="service-illustration" src="./images/cursor.png" alt="advertising">
+            </article>
 
-                <div class="box-details">
-                    <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking
-                        for
-                        key keywords and a 200% increase in organic traffic.</p>
-                    <span class="learn-details">Learn more</span>
-                    <img src="./images/greenArrow.png" alt="arrow">
+            <article class="service card dark">
+                <div class="service-content">
+                    <h3 style="background-color: #FFFFFF; border-radius: 7px; color: #000000;">Social Media<br>Marketing
+                    </h3>
+                    <a class="learn white" href="#">→ Learn more </a>
                 </div>
+                <img class="service-illustration" src="./images/smile.png" alt="smiling">
+            </article>
 
-                <div>
-                    <img src="./images/line.png" alt="line">
+            <article class="service card light">
+                <div class="service-content">
+                    <h3 style="background-color: #B9FF66; border-radius: 7px; color: #000000;">Email<br>Marketing</h3>
+                    <a class="learn" href="#">→ Learn more </a>
                 </div>
+                <img class="service-illustration" src="./images/email.png" alt="email">
+            </article>
 
-                <div class="box-details">
-                    <p>For a national retail chain, we created a social media marketing campaign that increased
-                        followers by
-                        25% and generated a 20% increase in online sales.</p>
-                    <span>Learn more</span>
-                    <img src="./images/greenArrow.png" alt="arrow">
+            <article class="service card green">
+                <div class="service-content">
+                    <h3 style="background-color: #FFFFFF; border-radius: 7px; color: #000000;">Content<br>Creation</h3>
+                    <a class="learn" href="#">→ Learn more </a>
                 </div>
-            </div>
-        </section>
+                <img class="service-illustration" src="./images/message.png" alt="content">
+            </article>
 
-        <div class="services">
-            <span id="serv">Our Working Process </span>
-            <p id="serv-para">Step-by-Step Guide to Achieving <br>Your Business Goals</p>
+            <article class="service card dark">
+                <div class="service-content">
+                    <h3 style="background-color: #B9FF66; border-radius: 7px; color: #000000;">Analytics and<br>Tracking
+                    </h3>
+                    <a class="learn white" href="#">→ Learn more </a>
+                </div>
+                <img class="service-illustration" src="./images/graph.png" alt="analysis">
+            </article>
         </div>
+    </section>
 
-        <section>
-            <div class="consultation-container">
-                <div class="consult-item">
-                    <span class="consult-number">01</span>
-                    <span class="consult-heading">Consultation</span>
-                    <img id="con-img1" src="./images/minusSign.png" alt="minus">
-                    <img id="consult-img" src="./images/verticalLine.png" alt="vertical line">
-                    <p>During the initial consultation, we will discuss your business goals and objectives, target
-                        audience,
-                        and current marketing efforts. This will allow us to understand your needs and tailor our
-                        services
-                        to best fit your requirements.</p>
-                </div>
-
-                <div class="consultation-items">
-                    <span class="consult-number">02</span>
-                    <span class="consult-heading">Research and Strategy Development</span>
-                    <img id="con-img2" src="./images/plusSign.png" alt="plus">
-                </div>
-
-                <div class="consultation-items">
-                    <span class="consult-number">03</span>
-                    <span class="consult-heading">Implementation</span>
-                    <img id="con-img3" src="./images/plusSign.png" alt="plus">
-                </div>
-
-                <div class="consultation-items">
-                    <span class="consult-number">04</span>
-                    <span class="consult-heading">Monitoring and Optimization</span>
-                    <img id="con-img2" src="./images/plusSign.png" alt="plus">
-                </div>
-
-                <div class="consultation-items">
-                    <span class="consult-number">05</span>
-                    <span class="consult-heading">Reporting and Communication</span>
-                    <img id="con-img5" src="./images/plusSign.png" alt="plus">
-                </div>
-
-                <div class="consultation-items">
-                    <span class="consult-number">06</span>
-                    <span class="consult-heading">Continual Improvement</span>
-                    <img id="con-img6" src="./images/plusSign.png" alt="plus">
-                </div>
-            </div>
-        </section>
-
-        <div class="services">
-            <span id="serv">Team </span>
-            <p id="serv-para">Meet the skilled and experienced team behind our <br>successful digital marketing
-                strategies
-            </p>
+    <section class="proposal wrap">
+        <div class="proposal-card">
+            <h2>Let's make things happen</h2>
+            <p>Contact us today to learn more about how our digital marketing services can help your business grow and
+                succeed online.</p>
+            <button class="btn-primary">Get your free proposal</button>
         </div>
-
-        <section>
-            <div class="teamIntro-container">
-                <div class="teamIntro-items1">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro1.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">John
-                                Smith</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">CEO and Founder</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">10+ years of experience in digital marketing.
-                                Expertise in SEO, PPC, and content strategy
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="teamIntro-items2">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro2.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">Jane Doe</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">Director of Operations</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">7+ years of experience in project management and team
-                                leadership. Strong organizational
-                                and
-                                communication skills</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="teamIntro-items3">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro3.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">Michael
-                                Brown</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">Senior SEO Specialist</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">5+ years of experience in SEO and content creation.
-                                Proficient in keyword research and
-                                on-page optimization</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="teamIntro-items4">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro4.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">Emily
-                                Johnson</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">PPC Manager</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">3+ years of experience in paid search advertising.
-                                Skilled in campaign management and
-                                performance analysis</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="teamIntro-items5">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro5.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">Brian
-                                Williams</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">Social Media Specialist</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">4+ years of experience in social media marketing.
-                                Proficient in creating and scheduling
-                                content, analyzing metrics, and building engagement</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="teamIntro-items6">
-                    <div class="teamIntro-flexContainer">
-                        <div class="teamIntro-flexItems1">
-                            <img src="./images/intro6.png" alt="photo">
-                            <span style="font-style: Space Grotesk; font-weight: 500; font-size: 20px;">Sarah Kim</span>
-                            <img style="margin-bottom: 70px; margin-left: 60px;" src="./images/in.png"
-                                alt="Linkedin"><br>
-                            <span style="font-family: Space Grotesk; font-size: 18px;">Content Creator</span>
-                            <img src="./images/smallLine.png" alt="seperator">
-                        </div>
-                        <div class="teamIntro-flexItems2">
-                            <p style="font-family: Space Grotesk;">2+ years of experience in writing and editing Skilled
-                                in creating compelling,
-                                SEO-optimized
-                                content for various industries</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <button id="teamIntro-button">See all team</button>
-
-        <div class="services">
-            <span id="serv">Contact Us </span>
-            <p id="serv-para">Connect with Us: Let's Discuss Your <br>Digital Marketing Needs
-            </p>
+        <div class="proposal-illustration">
+            <img src="./images/prop.png">
         </div>
+    </section>
 
-        <section>
-            <div class="contact">
-                <div class="contact-right">
-                    <form class="form">
-                        <input id="say" type="radio" value="say" name="say quote">
-                        <label for="say"> Say Hi</label>
-                        <input type="radio" name="say quote" id="quote" value="quote">
-                        <label for="quote"> Get a quote </label><br><br>
 
-                        <label for="name">Name</label><br>
-                        <input type="text" id="name" placeholder="Name"><br><br>
-
-                        <label for="mail">Email*</label><br>
-                        <input type="email" id="mail" placeholder="Email"><br><br>
-
-                        <label for="msg">Message*</label><br>
-                        <textarea name="msg" id="msg" placeholder="Message"></textarea><br><br>
-
-                        <button id="form-button">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-left">
-                    <img src="./images/semiCircle.png" alt="Sun with stars">
-                </div>
-            </div>
-        </section>
+    <div class="case-header">
+        <span class="tag">Case Studies</span>
+        <p class="lead">Explore Real-Life Examples of Our Proven Digital Marketing <br>Success through Our Case
+            Studies</p>
     </div>
+
+    <section class="case-studies container">
+        <div class="case-box">
+            <div class="case">
+                <p>
+                    For a local restaurant, we implemented a targeted PPC campaign that
+                    resulted in a 50% increase in website traffic and a 25% increase in sales.
+                </p>
+                <a href="#">Learn more →</a>
+            </div>
+
+            <div class="case">
+                <p>
+                    For a B2B software company, we developed an SEO strategy that resulted
+                    in a first page ranking for key keywords and a 200% increase in organic traffic.
+                </p>
+                <a href="#">Learn more →</a>
+            </div>
+
+            <div class="case">
+                <p>
+                    For a national retail chain, we created a social media marketing campaign
+                    that increased followers by 25% and generated a 20% increase in online sales.
+                </p>
+                <a href="#">Learn more →</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="process wrap">
+        <div class="process-header">
+            <span class="tag">Our Working Process</span>
+            <p class="lead small">Step-by-Step Guide to Achieving <br>Your Business Goals</p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-item open">
+                <button class="accordion-toggle">
+                    <span class="num">01</span>
+                    <span class="title">Consultation</span>
+                    <span class="icon">-</span>
+                </button>
+                <div class="accordion-body">
+                    <p>
+                        During the initial consultation, we will discuss your business goals and objectives, target
+                        audience, and current marketing efforts. This will allow us to understand your needs and tailor
+                        our services to best fit your requirements.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    <span class="num">02</span>
+                    <span class="title">Research and Strategy
+                        Development</span>
+                    <span class="icon">+</span>
+                </button>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    <span class="num">03</span>
+                    <span class="title">Implementation</span>
+                    <span class="icon">+</span>
+                </button>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    <span class="num">04</span>
+                    <span class="title">Monitoring and
+                        Optimization</span>
+                    <span class="icon">+</span>
+                </button>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    <span class="num">05</span>
+                    <span class="title">Reporting and
+                        Communication</span><span class="icon">+</span></button>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-toggle">
+                    <span class="num">06</span>
+                    <span class="title">Continual
+                        Improvement</span>
+                    <span class="icon">+</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="team wrap">
+        <div class="team-header">
+            <span class="tag">Team</span>
+            <p class="lead small">Meet the skilled and experienced team behind our <br>successful digital marketing
+                strategies</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro1.png" alt="john">
+                    <div>
+                        <h4>John Smith</h4>
+                        <p class="role">CEO and Founder</p>
+                    </div>
+                </div>
+                <p class="team-desc">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content
+                    strategy</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro2.png" alt="jane">
+                    <div>
+                        <h4>Jane Doe</h4>
+                        <p class="role">Director of Operations</p>
+                    </div>
+                </div>
+                <p class="team-desc">7+ years of experience in project management and team leadership. Strong
+                    organizational and communication skills</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro3.png" alt="michael">
+                    <div>
+                        <h4>Michael Brown</h4>
+                        <p class="role">Senior SEO Specialist</p>
+                    </div>
+                </div>
+                <p class="team-desc">5+ years of experience in SEO and content creation. Proficient in keyword research
+                    and on-page optimization</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro4.png" alt="emily">
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p class="role">PPC Manager</p>
+                    </div>
+                </div>
+                <p class="team-desc">3+ years of experience in paid search advertising. Skilled in campaign
+                    management and performance analysis</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro5.png" alt="brian">
+                    <div>
+                        <h4>Brian Williams</h4>
+                        <p class="role">Social Media Specialist</p>
+                    </div>
+                </div>
+                <p class="team-desc">4+ years of experience in social media marketing. Proficient in creating
+                    and scheduling content, analyzing metrics, and building engagement</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-card-header">
+                    <img src="./images/intro6.png" alt="sarah">
+                    <div>
+                        <h4>Sarah Kim</h4>
+                        <p class="role">Content Creator</p>
+                    </div>
+                </div>
+                <p class="team-desc">2+ years of experience in writing and editing. Skilled in creating
+                    compelling, SEO-optimized content for various industries</p>
+            </div>
+        </div>
+
+        <div class="center">
+            <button class="btn-large">See all team</button>
+        </div>
+    </section>
+
+    <section class="contact wrap">
+        <div class="contact-header">
+            <span class="tag">Contact Us</span>
+            <p class="lead small">Connect with Us: Let's Discuss Your <br>Digital Marketing Needs</p>
+        </div>
+
+        <div class="contact-grid">
+            <form class="contact-form">
+                <div class="radios">
+                    <label><input type="radio" name="type" checked> Say Hi</label>
+                    <label><input type="radio" name="type"> Get a Quote</label>
+                </div>
+
+                <label>Name</label>
+                <input type="text" placeholder="Name" required>
+
+                <label>Email*</label>
+                <input type="email" placeholder="Email" required>
+
+                <label>Message*</label>
+                <textarea rows="6" placeholder="Message" required></textarea>
+
+                <button class="btn-primary">Send Message</button>
+            </form>
+
+            <div class="contact-art">
+                <img src="./images/semiCircle.png" alt="sun and stars">
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
